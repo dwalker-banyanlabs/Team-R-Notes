@@ -1,0 +1,16 @@
+To switch to a different branch like develop, type
+git checkout develop
+
+To create a new branch like feature/Hero-02 and switch into it, type
+git checkout -b feature/Hero-02
+
+When done in feature/Hero-02, perform a git pull request by typing
+git checkout feature/Hero-02
+git add .
+git commit -m "changes"
+git push origin feature/Hero-02
+Then go to github and complete the git pull request.
+
+NEVER DO A GIT PUSH FROM THE DEVELOP BRANCH.
+
+ONLY DO A GIT PULL FROM THE DEVELOP BRANCH.

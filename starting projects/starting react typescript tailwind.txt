@@ -1,0 +1,45 @@
+npm create vite@latest my-app -- --template react-ts
+cd my-app
+code .
+npm install
+npm install tailwindcss @tailwindcss/vite
+
+/////
+
+Make your vite.config.ts file look like this:
+import { defineConfig } from 'vite'
+import react from '@vitejs/plugin-react'
+import tailwindcss from '@tailwindcss/vite'
+
+// https://vite.dev/config/
+export default defineConfig({
+  plugins: [react(),  tailwindcss()],
+})
+
+/////
+
+Make your index.css file look like this:
+@import "tailwindcss";
+
+/////
+
+Get started! To deploy, type
+npm run dev
+
+/////
+
+For a fresh start, change the App.tsx code to
+function App() {
+  return (
+    <>
+    </>
+  );
+};
+
+export default App;
+
+/////
+
+Remember to import components at top of App.tsx.
+
+
