@@ -1,0 +1,12 @@
+npx create-next-app@latest my-app --typescript
+
+You will be asked a series of questions:
+Yes to proceed
+Yes to ESLint
+Yes to Tailwind CSS
+Yes inside a 'src/' directory
+Yes to Turbopack
+Yes to App Router
+No to customize import alias
+
+run npm install in the proper folder

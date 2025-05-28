@@ -1,0 +1,10 @@
+Once you've clicked into your respository on github, click "1 Branch" near the top of the page (or tack /branches onto the end of your URL so it looks something like 'https://github.com/rblaylock-banyanlabs/OJT-Team-Directory/branches').
+
+If this is a new repository, you will see that your only branch is "main". Hit "New branch", name it "develop", make sure the source is "main", and then click "Create new branch". Afterward, hit refresh before making another new branch. Click "New branch" again to create a branch named "feature/*", this time using "develop" as the source. Create a new branch called "hotfix/*" as well, once more using "develop" as the source.
+
+Go to "Settings" at the top. Below the "General" section, there will be a place where you can swap the default branch. Use it change the default branch from "main" to "develop". There will be a scary warning; click "I understand, update the default branch".
+
+Click "branches" on the left side of the page to see a "Branch protection rules" section. Click "Add classic branch protection rule". Name the Branch name pattern "*", select "Require a pull request before merging" and then set the required number of approvals before merging (we'll leave it at 1 for early projects).
+Finally, click "Create" at the bottom of the page. You may be required to enter your github password.
+
+To finish setting up your repository and branches, click "Collaborators" and add everyone you want involved in the project.
